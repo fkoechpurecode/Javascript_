@@ -11,3 +11,95 @@
            <button type="button" onlick='document.getElementById("demo").innerHTML ="he is learning javascript">Check_IT</button>
            </body>
            </html>
+-Javascript can change the HTML attributes values.
+-Example:
+             <html>
+             <head>
+             <title></title>
+             </head>
+             <body>
+             <button onlick="document.getElementById('myImage').src='pic.gif'">on</button>
+             <img id='myImage'>
+                  src='pic.gif'
+                  style='height:100px;
+                         width:40px'
+             </body>
+             </html>
+-Javascript can change the HTML font for example;
+            <body>
+            <p id="dem02">i can change my font</p>
+            <button onlick="getElementById('demo2').style.fontSize='30px'>click me'</button>
+            </body>
+-It can display or show html.
+         <body>
+         <p id="demon3" style="display:none">I can be seen</p>
+         <button onlick='getElementById("demo3").style.display="block">Click Here</button>
+         </body>
+ 
+ 
+ 
+ 
+ Javascript tag
+ -------------------
+ -a) script tag
+ ------------------
+ -used in html to insert codes.
+      <script> html codes </script>
+      <body>
+      <p id='demo'></p>
+      <script>
+      document.getElementById('demo').innerHTML='demo';
+      </script>
+      </body>
+      
+ Javascript functions
+ --------------------
+ -Block of code that can be executed when called.
+ -Called when event occurs, like when the user click a button.
+ 
+ -Script can be placed in the body or header section of an html page or both.
+ -Placing the function in the header section of the html page. It can be invocked when the button is clicked.
+            <head>
+            <script>
+            function.myFunction(){
+             document.ElementById('demo1').innerHTML ='page changed';
+             }
+             </script>
+             </head>
+             <body>
+             <p id='demo1'>new page</p>
+             <button type="button" onlick="myfunction()">Check_Out</button>
+             </body>
+ 
+ -Javascript function can be placed in the body section on an HTML page.
+              <body>
+              <p id="demo">a page</p>
+              <button type="button" onclick="myFunction()">try it</button>
+              <script>
+              function myFunction(){
+              document.getElementById('demo').innerHTML="new page;
+              }
+              </script>
+              </body>
+              
+-External javascript. It can be placed in external files.
+-The files have the file extension .js
+-Put the name of the script file in the src(source) attribute of a <script> tag.
+     <script src="myScript.js"></script>
+-External script reference can be placed in the <head> or <body>
+-External javascript has advantage that includes:
+             -It separates HTML and code.
+             -Makes HTML and Javascript easier to read and maintain.
+             -cached javascript  files can speed up page loads.
+ -Can be referenced with a full URL or with a path relative to the current web page.
+ -Javascript display possibilities:
+           -writing into an HTML element, using innerHTML.
+           -Writing into  the HTML output using document.write()
+           -writting into an alert box, using the window.alert()
+           -Writting into the browswe console, using console.log()
+ -document.getElementById(id) method is used to access an html element.
+ -id attribute defines the html element.
+ -The innerHTML propert defines the html content.
+     
+        
+      
