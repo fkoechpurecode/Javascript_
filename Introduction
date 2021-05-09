@@ -1,0 +1,13 @@
+-Javascript can change HTML content.
+-one of the many javascript HTML methods is getElementById().
+-finds an HTML element with id and changes the element content.
+-Example:
+           <html>
+           <head>
+           <title><title>
+           </head>
+           <body>
+           <p id="demo">What is felix doing?</p>
+           <button type="button" onlick='document.getElementById("demo").innerHTML ="he is learning javascript">Check_IT</button>
+           </body>
+           </html>
